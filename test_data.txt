@@ -1,0 +1,30 @@
+/home/zeela/keras-yolo3/Data/Images/00698.jpg 737,413,765,442,0
+/home/zeela/keras-yolo3/Data/Images/00141.jpg 857,379,894,416,1
+/home/zeela/keras-yolo3/Data/Images/00706.jpg 866,371,898,402,0
+/home/zeela/keras-yolo3/Data/Images/00167.jpg 369,446,392,469,1 729,433,750,455,1
+/home/zeela/keras-yolo3/Data/Images/00091.jpg 869,443,899,471,2 1056,377,1096,414,2 509,382,553,422,2
+/home/zeela/keras-yolo3/Data/Images/00879.jpg 301,535,340,575,4 988,506,1029,547,4
+/home/zeela/keras-yolo3/Data/Images/00479.jpg 982,498,1025,539,2 990,539,1020,569,4
+/home/zeela/keras-yolo3/Data/Images/00634.jpg 525,371,569,416,1
+/home/zeela/keras-yolo3/Data/Images/00881.jpg 1131,561,1167,598,4 478,546,512,581,4
+/home/zeela/keras-yolo3/Data/Images/00344.jpg 799,413,879,494,4
+/home/zeela/keras-yolo3/Data/Images/00249.jpg 1212,419,1243,452,1
+/home/zeela/keras-yolo3/Data/Images/00001.jpg 983,388,1024,432,4 386,494,441,552,4 973,335,1031,390,2
+/home/zeela/keras-yolo3/Data/Images/00228.jpg 937,295,997,356,0
+/home/zeela/keras-yolo3/Data/Images/00466.jpg 1215,399,1267,443,2 514,468,548,497,2 1226,440,1262,475,4 519,494,543,518,4
+/home/zeela/keras-yolo3/Data/Images/00150.jpg 824,345,865,386,1
+/home/zeela/keras-yolo3/Data/Images/00388.jpg 1274,497,1346,561,2
+/home/zeela/keras-yolo3/Data/Images/00421.jpg 946,554,976,581,2
+/home/zeela/keras-yolo3/Data/Images/00182.jpg 656,412,685,441,1 658,385,686,414,4
+/home/zeela/keras-yolo3/Data/Images/00494.jpg 1113,300,1210,395,0
+/home/zeela/keras-yolo3/Data/Images/00074.jpg 383,527,421,569,4 439,401,488,452,3 929,378,980,431,3
+/home/zeela/keras-yolo3/Data/Images/00056.jpg 729,436,760,467,0
+/home/zeela/keras-yolo3/Data/Images/00225.jpg 856,268,924,334,0
+/home/zeela/keras-yolo3/Data/Images/00789.jpg 759,516,786,545,3
+/home/zeela/keras-yolo3/Data/Images/00751.jpg 725,568,754,596,2
+/home/zeela/keras-yolo3/Data/Images/00447.jpg 1182,418,1268,495,2
+/home/zeela/keras-yolo3/Data/Images/00864.jpg 910,443,931,462,4
+/home/zeela/keras-yolo3/Data/Images/00243.jpg 843,447,867,470,1
+/home/zeela/keras-yolo3/Data/Images/00865.jpg 342,186,428,273,3 573,490,597,514,4
+/home/zeela/keras-yolo3/Data/Images/00204.jpg 858,151,945,242,0 730,260,783,316,4
+/home/zeela/keras-yolo3/Data/Images/00232.jpg 589,495,616,524,4 868,379,910,419,2 297,420,340,459,2
