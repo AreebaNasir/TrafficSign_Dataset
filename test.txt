@@ -1,0 +1,30 @@
+TrafficSign_Dataset/Images/00024.jpg 113,463,142,492,2
+TrafficSign_Dataset/Images/00057.jpg 990,418,1036,467,0
+TrafficSign_Dataset/Images/00081.jpg 966,228,1044,299,2 233,499,249,521,4
+TrafficSign_Dataset/Images/00104.jpg 767,462,808,499,4 695,461,729,492,2
+TrafficSign_Dataset/Images/00135.jpg 718,298,777,356,0
+TrafficSign_Dataset/Images/00172.jpg 712,471,739,495,4 718,418,737,437,0
+TrafficSign_Dataset/Images/00187.jpg 675,405,708,439,1 161,393,194,428,1
+TrafficSign_Dataset/Images/00214.jpg 1185,130,1294,236,3 1214,241,1287,312,4
+TrafficSign_Dataset/Images/00229.jpg 1282,339,1332,383,4 1273,384,1304,417,0 1305,382,1340,414,4
+TrafficSign_Dataset/Images/00241.jpg 838,400,879,442,1
+TrafficSign_Dataset/Images/00254.jpg 1172,270,1236,336,1 1264,368,1295,398,4
+TrafficSign_Dataset/Images/00264.jpg 964,412,987,435,4 965,435,987,458,4 509,466,530,488,4
+TrafficSign_Dataset/Images/00274.jpg 975,395,1010,430,4
+TrafficSign_Dataset/Images/00284.jpg 980,269,1059,347,4 993,347,1050,404,1
+TrafficSign_Dataset/Images/00330.jpg 1050,313,1115,381,1
+TrafficSign_Dataset/Images/00374.jpg 999,527,1030,560,2 671,563,695,589,4
+TrafficSign_Dataset/Images/00465.jpg 1241,315,1330,395,2
+TrafficSign_Dataset/Images/00490.jpg 842,516,869,539,2 644,596,668,620,4 847,536,866,556,4
+TrafficSign_Dataset/Images/00638.jpg 914,374,952,414,0
+TrafficSign_Dataset/Images/00672.jpg 892,325,950,376,2 123,265,194,328,2
+TrafficSign_Dataset/Images/00700.jpg 848,348,913,406,2
+TrafficSign_Dataset/Images/00720.jpg 737,429,756,448,1
+TrafficSign_Dataset/Images/00774.jpg 929,516,961,548,0
+TrafficSign_Dataset/Images/00803.jpg 771,232,834,295,0 772,322,836,387,4
+TrafficSign_Dataset/Images/00836.jpg 57,363,91,395,2
+TrafficSign_Dataset/Images/00849.jpg 398,359,441,412,3 400,412,435,447,4
+TrafficSign_Dataset/Images/00860.jpg 1077,144,1167,231,1
+TrafficSign_Dataset/Images/00871.jpg 375,407,410,443,4 1273,381,1312,421,4
+TrafficSign_Dataset/Images/00887.jpg 852,523,878,550,4
+TrafficSign_Dataset/Images/00899.jpg 865,484,920,534,4
