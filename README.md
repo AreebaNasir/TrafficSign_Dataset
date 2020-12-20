@@ -25,6 +25,7 @@ text.txt: It contains the paths and bounded boxes for the image files that are u
 TrafficSignDetection: This python Notebook contains the code for training and testing the model.  
 
 ## Manual  
+Change the runtime type to GPU in google colab.  
 After cloning the qqwweee respository, change the following paths to train and test the model.  
 train.py:  
 Change the path of model weights in line 33  
