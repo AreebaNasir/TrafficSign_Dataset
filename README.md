@@ -6,6 +6,9 @@ Classes.txt: It contains five classes of traffic signs which are stop sign, yiel
 train.txt: It contains the paths and bounded boxes for the image files that are used for training the model.  
 text.txt: It contains the paths and bounded boxes for the image files that are used for testing the model.  
 TrafficSignDetection: This python Notebook contains the code for training and testing the model.  
+
+##Project Description  
+
   
 ## Manual  
 After cloning the qqwweee repository, change the following paths to train and test your model:  
