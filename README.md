@@ -17,4 +17,4 @@ Change the path of yolo_anchors.txt in line 20
 yolo.py:  
 Change the path of model in line 23 to your trained model  
 Change the path of yolo_anchors.txt in line 24  
-Change the path of classes.txt in line 24
+Change the path of classes.txt in line 25
