@@ -1,6 +1,6 @@
 # Project: RARroad
 
-# Project Description
+## Project Description
 RARroad is a computer vision based system that will assist the driver as road awareness is added in the rover using deep learning algorithms implemented on Raspberry Pi.
 
 The system consists of two stages. The first stage focuses on “Traffic signboard detection” and the second stage focuses on “Traffic sign classification and recognition." Raspberry pi camera module will take Video input from the surroundings and whenever a traffic sign appears, the system will:
@@ -9,7 +9,7 @@ The system consists of two stages. The first stage focuses on “Traffic signboa
 
 
 
-# TrafficSign_Dataset
+## TrafficSign_Dataset
 The project dataset includes selective traffic signs including speed limit signs, yield signs, warning signs, etc. The traffic sign detection and recognition will be done using the German Traffic Sign Detection Benchmark (GTSDB) dataset. Thus, two extensive functionalities (detection and recognition) will be implemented to provide road safety.
 Dataset is prepared according to our own requirement and scope. There are 4 preselected signs that are:
 1. Stop sign
