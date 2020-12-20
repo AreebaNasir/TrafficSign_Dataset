@@ -10,7 +10,7 @@ TrafficSignDetection: This python Notebook contains the code for training and te
 ## Manual  
 After cloning the qqwweee repository, change the following paths to train and test your model:  
 train.py:  
-Change the path of weight file according to your directory in line 33
+Change the path of weight file according to your path to weight file in line 33  
 Change the path of classes.txt in line 19  
 Change the path of yolo_anchors.txt in line 20  
   
