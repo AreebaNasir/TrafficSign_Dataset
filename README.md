@@ -30,7 +30,7 @@ After cloning the qqwweee respository, change the following paths to train and t
 train.py:  
 Change the path of model weights in line 33  
 Change the path of classes.txt in line 19  
-Change the path of yolo_anchors.txt in line 20 
+Change the path of yolo_anchors.txt in line 20  
 Change the batch size to 8 in line 76  
 
 yolo.py:  
