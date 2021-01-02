@@ -7,6 +7,8 @@ The system consists of two stages. The first stage focuses on “Traffic signboa
 1) Generate alerts to notify the driver through an Android application. 
 2) Change the rover behavior accordingly using Arduino Uno.
 
+
+
 ## YOLOv3
 With YOLO, a single CNN simultaneously predicts multiple bounding boxes and class probabilities for those boxes. YOLO trains on full images and directly optimizes detection performance. This model has a number of benefits over other object detection methods: YOLO is extremely fastand accurate.
 A Pre-trained model, YOLOv3, is used for the purpose of traffic sign detection and recognition. This is done for the reason of efficiency, as the traffic sign recognition system has to be implemented on a rover as a proof of concept. The algorithm will be able to give us maximum accurate results under minimum time. The YOLOv3 model is pretrained on COCO dataset, and weights are set according to it. Just using this platform and pre-trained weights, we retrained the model according to our need and our selected and prepared dataset. The model weights are downloaded from the darknet yolo website https://pjreddie.com/darknet/yolo/. 
