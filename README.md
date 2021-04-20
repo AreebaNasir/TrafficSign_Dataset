@@ -4,8 +4,8 @@
 RARroad is a computer vision based system that will assist the driver as road awareness is added in the rover using deep learning algorithms implemented on Raspberry Pi.
 
 The system consists of two stages. The first stage focuses on “Traffic signboard detection” and the second stage focuses on “Traffic sign classification and recognition." Raspberry pi camera module will take Video input from the surroundings and whenever a traffic sign appears, the system will:
-1) Generate alerts to notify the driver through an Android application. 
-2) Change the rover behavior accordingly using Arduino Uno.
+1) Predict traffic signs present in a real time video.
+2) Generate alerts to notify the driver through an Android application.
 
 
 
