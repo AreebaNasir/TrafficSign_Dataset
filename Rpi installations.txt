@@ -1,7 +1,7 @@
 >>Thonny is already in it.
 
 
-## To install OpenCV in Raspberry Pi for python3
+**To install OpenCV in Raspberry Pi for python3**
 sudo apt install libqtgui4
 sudo apt install libqt4-test
 sudo pip3 install opencv-python
