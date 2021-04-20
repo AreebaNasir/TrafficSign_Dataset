@@ -1,14 +1,13 @@
 >>Thonny is already in it.
 
-sudo apt-get install python3
 
->>To install OpenCV in Raspberry Pi for python3
+## To install OpenCV in Raspberry Pi for python3
 sudo apt install libqtgui4
 sudo apt install libqt4-test
 sudo pip3 install opencv-python
 
 
-
+## Then install tensorflow and keras
 sudo apt-get install python3-numpy
 sudo apt-get install libblas-dev
 sudo apt-get install liblapack-dev
@@ -19,8 +18,6 @@ sudo apt-get install python3-setuptools
 sudo apt-get install python3-scipy
 sudo apt-get update
 sudo apt-get install python3-h5py
-
-# Then install tensorflow and keras
 pip install scipy
 pip install cython
 pip install tensorflow==1.13.1
