@@ -29,7 +29,7 @@ train.txt: It contains the paths and bounded boxes for the image files that are 
 text.txt: It contains the paths and bounded boxes for the image files that are used for testing the model.  
 TrafficSignDetection: This python Notebook contains the code for training and testing the model.  
 
-## Manual to training weights
+## Manual to Training weights
 Change the runtime type to GPU in google colab.  
 After cloning the qqwweee respository https://github.com/qqwweee/keras-yolo3, change the following paths to train and test the model.  
 train.py:  
