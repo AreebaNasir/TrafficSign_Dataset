@@ -29,7 +29,7 @@ train.txt: It contains the paths and bounded boxes for the image files that are 
 text.txt: It contains the paths and bounded boxes for the image files that are used for testing the model.  
 TrafficSignDetection: This python Notebook contains the code for training and testing the model.  
 
-## Manual  
+## Manual to training weights
 Change the runtime type to GPU in google colab.  
 After cloning the qqwweee respository https://github.com/qqwweee/keras-yolo3, change the following paths to train and test the model.  
 train.py:  
@@ -42,6 +42,9 @@ yolo.py:
 Change the path of final model in line 23  
 Change the path of yolo_anchors.txt in line 24  
 Change the path of classes.txt in line 25 
+
+## Traffic sign Detection Model
+After training the specialized weights for our dataset, 
 
 ## RARRoad Android Application
 A part of this project was to create an android application that will help us in alerting the drivers about the incoming traffic signs so they can take action. The android application is present in the zip folder RARroad_FINAL and was made using android studio. It is a simple application providing the user with an easy to use interface so anyone can use it anywhere. The application provides additional information and facts related to Traffic signs and Road safety. On clicking the start directing button present on the hime screen, the driver will be able to get live feed from the model implemented on Raspberry pi 3. The connestion between rpi 3 and android appication is made by establishing a udp connection, making the application a client requesting for model predictions on the real time video being captured via rpi camera.
