@@ -1,5 +1,8 @@
 >> Architecture Diagram:
 This diagram demonstrates the system diagram of our project
 
+>> CNN Model Diagram:
+This diagram demonstrates the convolutional neural network of the deep learning model.
+
 >> Circuit Digram:
 This diagram demonstrates the ciruit of the rover i.e. rover integeration.
