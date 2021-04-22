@@ -6,3 +6,6 @@ This diagram demonstrates the convolutional neural network of the deep learning 
 
 >> Circuit Digram:
 This diagram demonstrates the ciruit of the rover i.e. rover integeration.
+
+>> Road:
+This image demonstrates the road built for the rover.
