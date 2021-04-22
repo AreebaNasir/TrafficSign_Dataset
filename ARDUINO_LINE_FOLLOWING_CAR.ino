@@ -91,16 +91,7 @@ void loop(){
 
 
 
-// else if(RIGHT_SENSOR>36 && LEFT_SENSOR<36) //LEFT
-// {
-//            digitalWrite(Motor11, LOW);
-//            digitalWrite(Motor12, HIGH);
-//            digitalWrite(Motor21, HIGH);
-//            digitalWrite(Motor22, LOW);
-//            analogWrite(PWMmotor1, valuePWM2);
-//            analogWrite(PWMmotor2, valuePWM2);
-//}
-//
+
 //else if(RIGHT_SENSOR<36 && LEFT_SENSOR>35) //RIGHT
 // {
 //              digitalWrite(Motor11, HIGH);
