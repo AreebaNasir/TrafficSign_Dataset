@@ -5,7 +5,7 @@ sudo apt install libqtgui4
 sudo apt install libqt4-test
 sudo pip3 install opencv-python
 
-## Make Python 3.7 the default language
+## Make Python 3.7 the default version
 
 
 ##Then install tensorflow and keras
