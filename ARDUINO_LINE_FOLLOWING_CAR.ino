@@ -89,23 +89,7 @@ void loop(){
 }
 
 
-// int valuePWM1=120; // speed motor 1 
-// int valuePWM2=150; // speed motor 2
-// 
-//void setup() {
-//  
-//  pinMode(Motor11,OUTPUT);
-//  pinMode(Motor12,OUTPUT);
-//  pinMode(Motor21,OUTPUT);
-//  pinMode(Motor22,OUTPUT);
-//  pinMode(PWMmotor1,OUTPUT);
-//  pinMode(PWMmotor2,OUTPUT);
-//
-//pinMode(A0, INPUT); // initialize Right sensor as an inut
-//pinMode(A1, INPUT); // initialize Left sensor as as input
-//
-//}
-//
+
 //void loop() {
 //
 //  int LEFT_SENSOR = analogRead(A0);
