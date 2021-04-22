@@ -52,7 +52,7 @@ The model produces the following output:
 4. Bounded boxes of the sign
 
 ## RARRoad Android Application
-A part of this project was to create an android application that will help us in alerting the drivers about the incoming traffic signs so they can take action. The android application is present in the zip folder RARroad_FINAL and was made using android studio. It is a simple application providing the user with an easy to use interface so anyone can use it anywhere. The application provides additional information and facts related to Traffic signs and Road safety. On clicking the start directing button present on the hime screen, the driver will be able to get live feed from the model implemented on Raspberry pi 3. 
+A part of this project was to create an android application that will help us in alerting the drivers about the incoming traffic signs so they can take action. The android application is present in the zip folder RARroad_FINAL and was made using android studio. In this application, JAVA is used as a back-end language and XML is used a front-end language. It is a simple application providing the user with an easy to use interface so anyone can use it anywhere. The application provides additional information and facts related to Traffic signs and Road safety. On clicking the start directing button present on the hime screen, the driver will be able to get live feed from the model implemented on Raspberry pi 3. 
 ### Connection of Deep learning Model with Mobile Application:            
    The connection between rpi 3 and android appication is made by establishing UDP connection, making the application a client requesting for model predictions on the real time video being captured via rpi camera.
 
