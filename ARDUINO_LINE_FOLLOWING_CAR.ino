@@ -89,13 +89,3 @@ void loop(){
 }
 
 
-
-//else if(RIGHT_SENSOR>35 && LEFT_SENSOR>35) //BACK
-//{
-//              digitalWrite(Motor11, LOW);
-//              digitalWrite(Motor12, LOW);
-//              digitalWrite(Motor21, LOW);
-//              digitalWrite(Motor22, LOW);
-//              delay(10000);
-// }
-//}
