@@ -25,6 +25,7 @@ void setup() {
   
 }
 
+//Loop for Controlling the rover behaviour until it stops and motors' are released
 void loop(){
   //printing values of the sensors to the serial monitor
   Serial.println(digitalRead(left));
