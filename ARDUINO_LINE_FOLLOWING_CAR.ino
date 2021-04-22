@@ -88,17 +88,7 @@ void loop(){
   
 }
 
-///*
-// * Forbiddenbit.com
-// */
-// 
-// #define Motor11 7
-// #define Motor12 6
-// #define Motor21 9
-// #define Motor22 8
-// #define PWMmotor1 5
-// #define PWMmotor2 10
-//
+
 // int valuePWM1=120; // speed motor 1 
 // int valuePWM2=150; // speed motor 2
 // 
