@@ -43,8 +43,13 @@ Change the path of final model in line 23
 Change the path of yolo_anchors.txt in line 24  
 Change the path of classes.txt in line 25 
 
-## Traffic sign Detection Model
-After training of the specialized weights for our dataset, the weights are then loaded and converted into the model using yolov3 utilitis. The model is according to the classes present and is now ready to make new predictions. This all is implemented in FYPII.ipnyb's class YOLO(). YOLO() class in this file has been referenced from https://github.com/qqwweee/keras-yolo3 repository. On creating an object of this class, al the functionalities can be accessed and signs can be predicted for input image or videos via detect_image() function.
+## Traffic sign Detection and Recognition Model
+After training of the specialized weights for our dataset, the weights are then loaded and converted into the model using yolov3 utilitis. The model is according to the classes present and is now ready to make new predictions. This all is implemented in FYPII.ipnyb's class YOLO(). YOLO() class in this file has been referenced from https://github.com/qqwweee/keras-yolo3 repository. On creating an object of this class, all the functionalities can be accessed and signs can be predicted for input image or videos via detect_image() function. 
+The model produces the following output:
+1. Predicted traffic signs names
+2. Time taken to predict the sign
+3. Confidence value of sign
+4. Bounded boxes of the sign
 
 ## RARRoad Android Application
 A part of this project was to create an android application that will help us in alerting the drivers about the incoming traffic signs so they can take action. The android application is present in the zip folder RARroad_FINAL and was made using android studio. It is a simple application providing the user with an easy to use interface so anyone can use it anywhere. The application provides additional information and facts related to Traffic signs and Road safety. On clicking the start directing button present on the hime screen, the driver will be able to get live feed from the model implemented on Raspberry pi 3. 
