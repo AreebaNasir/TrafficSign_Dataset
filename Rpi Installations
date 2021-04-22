@@ -24,5 +24,7 @@ pip install cython
 pip install tensorflow==1.13.1
 pip install keras=2.1.5
 
+##Convert video .h264 to .mp4
+sudo apt-get install gpac
 
 
