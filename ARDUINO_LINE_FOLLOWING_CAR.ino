@@ -32,7 +32,7 @@ void loop(){
   
   Serial.println(digitalRead(right));
 
-  //line detected by both
+  //line detected by both infrared sensors
   if(digitalRead(left)==0 && digitalRead(right)==0){
     //Forward
     motor1.run(BACKWARD);
