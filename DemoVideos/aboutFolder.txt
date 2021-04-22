@@ -1,10 +1,10 @@
-Contains all the videos related to project progress from start to the end
+Contains the videos related to project progress from start to the end
 
 >> Final Model Application:
 This video demonstrates the android application functionalities and navigations
 
 >> TestingModel:
-This video demonstrates the rover moving on the road and the pi camera taking video input from the surroundings, the road constists of attatched traffic signs for the proof of concept. 
+This video demonstrates the rover moving on the road containing traffic signs, and the pi camera taking video input from the surroundings
 
 >> TestingModel:
 This video demonstrates the model sending its outputs to the android application and then the app generating 
