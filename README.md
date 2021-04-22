@@ -44,7 +44,7 @@ Change the path of yolo_anchors.txt in line 24
 Change the path of classes.txt in line 25 
 
 ## Traffic sign Detection and Recognition Model
-After training of the specialized weights for our dataset, the weights are then loaded and converted into the model using yolov3 utilitis. The model is according to the classes present and is now ready to make new predictions. This all is implemented in FYPII.ipnyb's class YOLO(). YOLO() class in this file has been referenced from https://github.com/qqwweee/keras-yolo3 repository. On creating an object of this class, all the functionalities can be accessed and signs can be predicted for input image or videos via detect_image() function. 
+After training of the specialized weights for our dataset, the weights are then loaded and converted into the model using yolov3 utilitis. The model is according to the classes present and is now ready to make new predictions. This all is implemented in FYPII.ipnyb's class YOLO(). YOLO() class in this file has been referenced from https://github.com/qqwweee/keras-yolo3 repository. On creating an object of this class, all the functionalities can be accessed and signs can be predicted for input image or videos via detect_image() function.  
 The model produces the following output:
 1. Predicted traffic signs names
 2. Time taken to predict the sign
