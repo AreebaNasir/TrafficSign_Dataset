@@ -70,7 +70,7 @@ void loop(){
     motor4.setSpeed(120);
    
   }
-  //line detected by none
+  //line detected by none of the infrared sensors
   else if(!digitalRead(left)==0 && !digitalRead(right)==0){
     //stop
     motor1.run(RELEASE);
