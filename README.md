@@ -59,4 +59,6 @@ A demonstration of the android application can be watched in the *Final Model Ap
 
 ## Model Deployment on Rasberry Pi
 Before the deployment of model on raspberry pi 3, some necessary installations are required. These installation are listed in the file *Rpi Installations.txt*. After installations, SCP Protocol from MobaXterm was used to transfer files from laptop to raspberry pi. Due to low processing speed of raspberry pi 3, the model output was bit lagging as compared to the real time input video. This issue was solved by minimizing the work load on raspberry pi through limiting the connections formed between Rpi and Android application. Frames were also dropped from the video feed to avoid the useless frames from burdening the Rpi. 
+### Project Demo  
+All the progress of the project from start to end can be watched in the demo videos present in DemoVideos folder.
 
