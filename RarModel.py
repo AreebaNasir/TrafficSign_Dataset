@@ -55,6 +55,7 @@ class YOLO(object):
         self.sess = K.get_session()
         self.boxes, self.scores, self.classes = self.generate()
 
+    #return the names of classes
     def _get_class(self):
         classes_path = os.path.expanduser(self.classes_path)
         with open(classes_path) as f:
@@ -82,7 +83,6 @@ class YOLO(object):
             if is_tiny_version else yolo_body(Input(shape=(None,None,3)), num_anchors//3, num_classes)
         self.yolo_model.load_weights(self.model_path) # make sure model, anchors and classes match
        
-
         # Generate output tensor targets for filtered bounding boxes.
         self.input_image_shape = K.placeholder(shape=(2, ))
         if self.gpu_num>=2:
@@ -125,15 +125,16 @@ class YOLO(object):
             label = '{} {:.2f}'.format(predicted_class, score)
             print(label)            
         return out_classes
-    
-    def threaded(self,con):
-        
+   
+    """Threaded functions accepts the socket connection and sends 
+    the predicted labels to the android application """
+    def threaded(self,con):        
         print(class_labels)
         if len(class_labels) != 0:
             con.send(json.dumps({"label":int(class_labels[0])}).encode('utf-8'))
         con.close() 
             
-
+    #closing the session of YOLO object
     def close_session(self):
         self.sess.close()
 
@@ -143,18 +144,19 @@ yolo1 = YOLO()
 
 port = 5000
 global class_labels
+#Create socket for connecting android application
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind(("0.0.0.0", port))
 s.listen(5)   
 
-# Variable for counting total amount of frames
+# store the previous label
 pre = -1
 
 # initialize the camera and grab a reference to the raw camera capture
 camera = PiCamera()
 rawCapture = PiRGBArray(camera)
 
-
+# Taking real time input and using YOLO object to detect and recognize signs
 while True:
     # allow the camera to warmup
     time.sleep(0.1)
