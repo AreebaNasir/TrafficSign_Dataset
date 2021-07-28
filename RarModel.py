@@ -11,6 +11,8 @@ from imutils.video import VideoStream
 from imutils.video import FPS
 import imutils
 import time
+from picamera.array import PiRGBArray
+from picamera import PiCamera
 
 # -*- coding: utf-8 -*-
 
@@ -148,20 +150,26 @@ s.listen(5)
 # Variable for counting total amount of frames
 pre = -1
 
-video = cv2.VideoCapture('modeltest.mp4')
+# initialize the camera and grab a reference to the raw camera capture
+camera = PiCamera()
+rawCapture = PiRGBArray(camera)
+
 
 while True:
-    ret, frame = video.read()
-    
-    if not ret:
-        break
-    
+    # allow the camera to warmup
+    time.sleep(0.1)
+    # grab an image from the camera
+    camera.capture(rawCapture, format="bgr")
+    #extract the camera
+    frame = rawCapture.array
     cv2.imwrite("frame.jpg",frame)
     image=Image.open("frame.jpg")
+    #Call YOLO class function to detect all the labels in the frame
     class_labels = yolo1.detect_image()
     print(class_labels)
     
     i = 0
+    #drop some of the frames
     while(i<13):
         frame = video.read()
         i+=1
@@ -174,20 +182,10 @@ while True:
     print("Waiting for client connection") 
     conn, addr = s.accept()
     print("Connected to",conn,":",addr)
-
     start_new_thread(yolo1.threaded, (conn,))
     pre = int(class_labels[0])
     
-    #key = cv2.waitKey(1) & 0xFF
-    
-    #if(key == ord("q")):
-        #break
-
-    
-    
-cv2.destroyAllWindows()
-
-    
+cv2.destroyAllWindows()    
 s.close()
 #************************** Closing Session **************************#
 yolo1.close_session()
